@@ -1,26 +1,14 @@
 <template>
     <div>
-        1111111111
+        22222222222222222222
     </div>
 </template>
 
 <script>
-
     export default {
         data () {
             return {
                 msg: '我是home页'
-            }
-        },
-        created() {
-
-        },
-        mounted() {
-            this.console()
-        },
-        methods: {
-            console() {
-                console.log(1)
             }
         }
     }
