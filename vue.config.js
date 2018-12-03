@@ -100,7 +100,7 @@ module.exports = {
             .set('@', resolve('src'))
             .set('./@assets', resolve('src/assets'))
             .set('@components', resolve('src/components'))
-            .set('@font', resolve('src/font'));
+            .set('@font', resolve('src/font'));//一个标签代表一个一个设置的全局变量路径
     },
 
     // 是否为生产环境构建生成 source map？
